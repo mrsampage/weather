@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(205, 245, 245);
+    background-image: linear-gradient(#36d1dc, #5b86e5);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    /* padding : 1px 2px 3px 3px; */
+}
+
+
+#appContainer{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    background-color:rgb(82, 187, 206);
+    border-radius: 10px;
+}
+#cityInputContainer{
+    display: flex;
+    justify-content: center;
+    /* margin-top:; */
+    /* height: 50%; */
+    margin-top: 20px;
+        
+}
+
+#cityInput{
+    display: flex;
+    border-radius: 100px;
+    width: 80%;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 8px 8px;
+    margin-top: 2px;
+    /* transition: transform 500ms ease; */
+}
+
+input {
+    border: none;
+    /* outline: none; */
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+/* ------------------------------------------- */
+
+#tempIconContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+#tempIcon{
+    /* align-self: center; */
+    /* width: 150px; */
+/* } */
+
+img{
+    width: 200px;
+    /* align-self: center; */
+}
+
+/* ---------------------------------- */
+#temp{
+    margin-left: 30px;
+
+}
+
+#tempValue{
+    color: white;
+    font-size: 4rem;
+}
+
+#tempUnit{
+    color: white;
+    font-size: 4rem;
+}
+#climate{
+    color: white;
+    font-size: 2rem;
+}
+
