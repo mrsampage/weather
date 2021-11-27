@@ -1,3 +1,7 @@
+function myFunction() {
+    alert("Hello! I am an alert box!");
+}
+
 let loc = document.getElementById("location");
 let tempIcon = document.getElementById("tempIcon")
 let tempValue = document.getElementById("tempValue");
